@@ -9,7 +9,7 @@
 <body>
     <script>
        var xhr=new XMLHttpRequest();
-       xhr.open('get','/hello.json',true);
+       xhr.open('get','/project-demo/hello.json',true);
        xhr.send();
        xhr.addEventListener('load',function(){
            if((xhr.status>=200 &&xhr.status<300)||xhr.status===304){
